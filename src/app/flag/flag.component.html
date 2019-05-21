@@ -1,0 +1,22 @@
+<div
+  [ngClass]="[
+    'flag',
+    hasBorder ? 'border' : ''
+  ]"
+>
+  {{ code }}
+  {{ gradient }}
+  <!-- <img [src]="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/' + size.toLowerCase() + '/' + code.toUpperCase() + '.svg?sanitize=true`"> -->
+</div>
+
+<!--
+[className]="[
+  'flag',
+  className,
+  gradient,
+  'size-' + size,
+  hasBorder ? 'border' : '',
+  dropshadow ? 'dropshadow' : '',
+  hasBorderRadius ? 'border-radius' : '',
+]"
+ -->
