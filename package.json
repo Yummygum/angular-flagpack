@@ -1,15 +1,33 @@
 {
   "name": "angular-flag-pack",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "./dist/angular-flag-pack/main.js",
+  "author": "Yummygum <info@yummygum.com> (https://yummygum.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yummygum/angular-flag-pack/issues"
+  },
+  "homepage": "https://github.com/Yummygum/angular-flag-pack/#readme",
+  "keywords": [
+    "angular",
+    "angular-component",
+    "languages",
+    "flag",
+    "iso",
+    "flag set",
+    "countries"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build angular-flag-pack",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "peerDependencies": {
+    "flag-pack-core": "^0.0.1"
+  },
   "dependencies": {
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
@@ -44,5 +62,12 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
-  }
+  },
+  "authors": [
+    {
+      "name": "Noud Adrichem",
+      "social": "@noudadrichem",
+      "url": "https://noudadrichem.com"
+    }
+  ]
 }
