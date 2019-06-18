@@ -1,0 +1,30 @@
+<div
+  [ngClass]="[
+    'flag',
+    size,
+    hasBorder ? 'border' : '',
+    hasBorderRadius ? 'border-radius' : '',
+    dropshadow ? 'dropshadow' : '',
+    code,
+    gradient
+  ]"
+>
+  <img [src]="'https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/' + size.toLowerCase() + '/' + code.toUpperCase() + '.svg?sanitize=true'">
+</div>
+
+
+<!-- template: `
+  <div
+    [ngClass]="[
+      'flag',
+      size,
+      hasBorder ? 'border' : '',
+      hasBorderRadius ? 'border-radius' : '',
+      dropshadow ? 'dropshadow' : '',
+      code,
+      gradient
+    ]"
+  >
+    <img [src]="'https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/' + size.toLowerCase() + '/' + code.toUpperCase() + '.svg?sanitize=true'">
+  </div>
+`, -->
