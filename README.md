@@ -5,25 +5,35 @@
 ## Installation
 
 ```bash
-npm install Angular-flag-pack
+npm install angular-flag-pack -S
 ```
 
-## Install module
+## Declare module
 ```js
+import { FlagComponent } from 'angular-flag-pack'
 
+@NgModule({
+  ...
+  declarations: [
+    FlagComponent
+  ],
+  imports: [
+    BrowserModule, // is required
+  ],
+  ...
+})
 ```
 
 Use in your template:
 ```html
- <app-flag 
+ <flag
   code="nl"
   size="m"
-  gradient="top-down" 
+  gradient="top-down"
   [dropshadow]="true"
-  [hasBorder]="true" 
-  [hasBorderRadius]="true" 
-  class="customClass">
-</app-flag>
+  [hasBorder]="true"
+  [hasBorderRadius]="true">
+</flag>
 ```
 
 ## Available component options
@@ -39,14 +49,3 @@ Use in your template:
 | customBorderRadius |  String | false | - | - |
 | gradient |  String | false | '' | 'top-down', 'real-linear' or 'real-circular' |
 
-
-
-## Build Dist
-
-```bash
-# install dependencies
-npm install
-
-# build for prod
-npm run build
-```

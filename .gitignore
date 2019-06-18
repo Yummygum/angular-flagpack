@@ -1,8 +1,7 @@
-$ cat .gitignore
 /node_modules
 /dist
 /documentation
 /coverage
-
+.DS_Store
 *.log
 *.tgz

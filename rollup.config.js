@@ -14,7 +14,8 @@ import sourcemaps from 'rollup-plugin-sourcemaps';
  * - '@angular/common/http' => 'ng.common.http'
  * - '@angular/platform-browser-dynamic' => 'ng.platformBrowserDynamic'
  * - '@angular/platform-browser' => 'ng.platformBrowser'
- * - '@angular/platform-browser/animations' => 'ng.platformBrowser.animations'
+ * - '@angular/platform-browser/anima
+ * tions' => 'ng.platformBrowser.animations'
  * - '@angular/platform-server' => 'ng.platformServer'
  * - '@angular/router' => 'ng.router'
  * 
@@ -32,22 +33,26 @@ import sourcemaps from 'rollup-plugin-sourcemaps';
  * 
  */
 const globals = {
-    '@angular/core': 'ng.core',
-    '@angular/common': 'ng.common',
-    'rxjs': 'rxjs',
-    'rxjs/operators': 'rxjs.operators'
+  '@angular/core': 'ng.core',
+  '@angular/common': 'ng.common',
+  'rxjs': 'rxjs',
+  'rxjs/operators': 'rxjs.operators'
 };
 
 export default {
-    external: Object.keys(globals),
-    plugins: [resolve(), sourcemaps()],
-    onwarn: () => { return },
-    output: {
-        format: 'umd',
-        name: 'ng.Flag',
-        globals: globals,
-        sourcemap: true,
-        exports: 'named',
-        amd: { id: 'angular-flag-pack' }
+  external: Object.keys(globals),
+  plugins: [resolve(), sourcemaps()],
+  onwarn: () => {
+    return
+  },
+  output: {
+    format: 'umd',
+    name: 'ng.Flag',
+    globals: globals,
+    sourcemap: true,
+    exports: 'named',
+    amd: {
+      id: 'angular-flag-pack'
     }
+  }
 }
