@@ -20,7 +20,6 @@ export class FlagComponent {
   @Input() className: String;
 
   get assetCode(): String {
-    console.log('get asset code', this.code)
     return isoToCountryCode(this.code.toUpperCase());
   }
 

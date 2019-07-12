@@ -1,6 +1,6 @@
 {
   "name": "angular-flag-pack",
-  "version": "0.1.2",
+  "version": "0.1.10",
   "description": "A flag pack to use in Angular",
   "main": "./bundles/angular-flag-pack.umd.js",
   "module": "./fesm5/angular-flag-pack.js",
@@ -11,14 +11,14 @@
   "fesm2015": "./fesm2015/angular-flag-pack.js",
   "typings": "./angular-flag-pack.d.ts",
   "scripts": {
-    "build": "node build.js",
-    "publish": "npm run build && npm publish ./dist"
+    "test": "echo 'tests here'",
+    "build": "node build.js"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Yummygum/vue-flag-pack/issues"
+    "url": "https://github.com/Yummygum/angular-flag-pack/issues"
   },
-  "homepage": "https://github.com/Yummygum/vue-flag-pack/#readme",
+  "homepage": "https://flagpack.xyz",
   "author": "Yummygum <info@yummygum.com> (https://yummygum.com)",
   "keywords": [
     "angular",
