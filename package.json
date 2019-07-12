@@ -1,6 +1,6 @@
 {
   "name": "angular-flag-pack",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "A flag pack to use in Angular",
   "main": "./bundles/angular-flag-pack.umd.js",
   "module": "./fesm5/angular-flag-pack.js",
@@ -13,9 +13,7 @@
   "scripts": {
     "test": "echo 'tests here'",
     "build": "node build.js",
-    "prepublish": "npm test && npm version patch",
-    "publish": "npm run build && npm publish ./dist",
-    "postpublish": "git push && git push --tags"
+    "publish": "npm run build && npm publish ./dist"
   },
   "license": "MIT",
   "bugs": {
