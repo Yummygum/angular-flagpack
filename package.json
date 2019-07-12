@@ -1,6 +1,6 @@
 {
   "name": "angular-flag-pack",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A flag pack to use in Angular",
   "main": "./bundles/angular-flag-pack.umd.js",
   "module": "./fesm5/angular-flag-pack.js",
