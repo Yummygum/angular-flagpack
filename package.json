@@ -11,8 +11,11 @@
   "fesm2015": "./fesm2015/angular-flag-pack.js",
   "typings": "./angular-flag-pack.d.ts",
   "scripts": {
+    "test": "echo 'tests here'",
     "build": "node build.js",
-    "publish": "npm run build && npm publish ./dist"
+    "prepublish": "npm test && npm version patch", 
+    "publish": "npm run build && npm publish ./dist",
+    "postpublish": "git push && git push --tags"
   },
   "license": "MIT",
   "bugs": {
