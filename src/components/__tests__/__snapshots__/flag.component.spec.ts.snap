@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlagComponent Should display a flight 1`] = `
+<flag
+  code={[Function String]}
+>
+  <div>
+    <img />
+  </div>
+</flag>
+`;
