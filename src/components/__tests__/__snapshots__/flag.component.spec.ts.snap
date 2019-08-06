@@ -1,11 +1,64 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`FlagComponent Should display a flight 1`] = `
+exports[`FlagComponent Test different flag sizes Should render a large Dutch flag. 1`] = `
 <flag
+  className=""
   code={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
 >
-  <div>
-    <img />
+  <div
+    class="flag l border border-radius NL"
+    ng-reflect-ng-class="flag,l,border,border-radius,,N"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/NL.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Test different flag sizes Should render a medium Dutch flag. 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag m border border-radius NL"
+    ng-reflect-ng-class="flag,m,border,border-radius,,N"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/m/NL.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Test different flag sizes Should render a small Dutch flag. 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag s border border-radius NL"
+    ng-reflect-ng-class="flag,s,border,border-radius,,N"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/s/NL.svg?sanitize=true"
+    />
   </div>
 </flag>
 `;

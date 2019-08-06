@@ -3,9 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FlagComponent } from '../flag.component'
 
 describe('FlagComponent', () => {
-  let component: FlagComponent;
-  let fixture: ComponentFixture<FlagComponent>;
-
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [FlagComponent],
@@ -13,15 +10,50 @@ describe('FlagComponent', () => {
     }).compileComponents();
   }));
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(FlagComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges()
-  });
+  function setup() {
+    const fixture = TestBed.createComponent(FlagComponent)
+    const flag = fixture.debugElement.componentInstance;
+    return { fixture, flag };
+  }
 
-  it('Should display a flight', () => {
-    component.code = 'nl'
+  describe('Test different flag sizes', () => {
+    it('Should render a large Dutch flag.', async () => {
+      const { flag, fixture } = setup()
+      flag.code = 'NL'
+      flag.size = 'l'
 
-    expect(fixture).toMatchSnapshot();
-  });
+      fixture.detectChanges()
+      const compile = fixture.debugElement.nativeElement
+      const flagDiv = compile.querySelector('.flag')
+
+      expect(fixture).toMatchSnapshot()
+      expect(flagDiv.className).toBe('flag l border border-radius NL')
+    });
+
+    it('Should render a medium Dutch flag.', async () => {
+      const { flag, fixture } = setup()
+      flag.code = 'NL'
+      flag.size = 'm'
+
+      fixture.detectChanges()
+      const compile = fixture.debugElement.nativeElement
+      const flagDiv = compile.querySelector('.flag')
+
+      expect(fixture).toMatchSnapshot()
+      expect(flagDiv.className).toBe('flag m border border-radius NL')
+    });
+
+    it('Should render a small Dutch flag.', async () => {
+      const { flag, fixture } = setup();
+      flag.code = 'NL'
+      flag.size = 's'
+
+      fixture.detectChanges()
+      const compile = fixture.debugElement.nativeElement
+      const flagDiv = compile.querySelector('.flag')
+
+      expect(fixture).toMatchSnapshot();
+      expect(flagDiv.className).toBe('flag s border border-radius NL')
+    });
+  })
 })
