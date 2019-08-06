@@ -1,12 +1,12 @@
 <div
   [ngClass]="[
     'flag',
-    size,
+    size ? size : '',
     hasBorder ? 'border' : '',
     hasBorderRadius ? 'border-radius' : '',
     dropshadow ? 'dropshadow' : '',
-    code,
-    gradient
+    code ? code : '',
+    gradient ? gradient : ''
   ]"
 >
   <img [src]="'https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/' + size.toLowerCase() + '/' + assetCode + '.svg?sanitize=true'">

@@ -10,14 +10,14 @@ const { isoToCountryCode } =  require('flag-pack-core');
   styleUrls: ['./flag.component.scss']
 })
 export class FlagComponent {
-  @Input() code: String;
-  @Input() size: 'l';
-  @Input() dropshadow: Boolean;
-  @Input() hasBorder: Boolean;
-  @Input() gradient: '';
-  @Input() hasBorderRadius: Boolean;
+  @Input() code: String = '';
+  @Input() size: String = 'l';
+  @Input() dropshadow: Boolean = false;
+  @Input() hasBorder: Boolean = true;
+  @Input() gradient: String = '';
+  @Input() hasBorderRadius: Boolean = true;
   @Input() customBorderRadius: any;
-  @Input() className: String;
+  @Input() className: String = '';
 
   get assetCode(): String {
     return isoToCountryCode(this.code.toUpperCase());
