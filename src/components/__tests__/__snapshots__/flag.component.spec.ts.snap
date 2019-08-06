@@ -62,3 +62,193 @@ exports[`FlagComponent Test different flag sizes Should render a small Dutch fla
   </div>
 </flag>
 `;
+
+exports[`FlagComponent Tests the different props Should render a flag with a border-radius of 10px 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  customBorderRadius={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border border-radius IT"
+    ng-reflect-ng-class="flag,l,border,border-radius,,I"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Should render a flag with no border-radius 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius="false"
+  size={[Function String]}
+>
+  <div
+    class="flag l border IT"
+    ng-reflect-ng-class="flag,l,border,,,IT,"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Should render a large US flag with a custom classname. 1`] = `
+<flag
+  className={[Function String]}
+  code={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border border-radius US"
+    ng-reflect-ng-class="flag,l,border,border-radius,,U"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/US.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Should render a large US flag with drop shadow. 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow={[Function Boolean]}
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border border-radius dropshadow US"
+    ng-reflect-ng-class="flag,l,border,border-radius,dr"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/US.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Tests the border prop Should render a flag with a border 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border border-radius IT"
+    ng-reflect-ng-class="flag,l,border,border-radius,,I"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Tests the border prop Should render a flag without a border 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient=""
+  hasBorder="false"
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border-radius IT"
+    ng-reflect-ng-class="flag,l,,border-radius,,IT,"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Tests the different gradients Should render a large Belgium flag with a real-circular gradient 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient={[Function String]}
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border border-radius BE real-circular"
+    ng-reflect-ng-class="flag,l,border,border-radius,,B"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/BE.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Tests the different gradients Should render a large Belgium flag with a real-linear gradient 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient={[Function String]}
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border border-radius BE real-linear"
+    ng-reflect-ng-class="flag,l,border,border-radius,,B"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/BE.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
+
+exports[`FlagComponent Tests the different props Tests the different gradients Should render a large Belgium flag with a top-down gradient 1`] = `
+<flag
+  className=""
+  code={[Function String]}
+  dropshadow="false"
+  gradient={[Function String]}
+  hasBorder={[Function Boolean]}
+  hasBorderRadius={[Function Boolean]}
+  size={[Function String]}
+>
+  <div
+    class="flag l border border-radius BE top-down"
+    ng-reflect-ng-class="flag,l,border,border-radius,,B"
+  >
+    <img
+      src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/BE.svg?sanitize=true"
+    />
+  </div>
+</flag>
+`;
