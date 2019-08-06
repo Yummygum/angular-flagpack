@@ -6,8 +6,10 @@
     hasBorderRadius ? 'border-radius' : '',
     dropshadow ? 'dropshadow' : '',
     code ? code : '',
-    gradient ? gradient : ''
+    gradient ? gradient : '',
+    className ? className: ''
   ]"
+  [ngStyle]="customBorderRadius ? {'border-radius': customBorderRadius} : ''"
 >
   <img [src]="'https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/' + size.toLowerCase() + '/' + assetCode + '.svg?sanitize=true'">
 </div>

@@ -13,6 +13,7 @@ exports[`FlagComponent Test different flag sizes Should render a large Dutch fla
   <div
     class="flag l border border-radius NL"
     ng-reflect-ng-class="flag,l,border,border-radius,,N"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/NL.svg?sanitize=true"
@@ -34,6 +35,7 @@ exports[`FlagComponent Test different flag sizes Should render a medium Dutch fl
   <div
     class="flag m border border-radius NL"
     ng-reflect-ng-class="flag,m,border,border-radius,,N"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/m/NL.svg?sanitize=true"
@@ -55,6 +57,7 @@ exports[`FlagComponent Test different flag sizes Should render a small Dutch fla
   <div
     class="flag s border border-radius NL"
     ng-reflect-ng-class="flag,s,border,border-radius,,N"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/s/NL.svg?sanitize=true"
@@ -77,6 +80,8 @@ exports[`FlagComponent Tests the different props Should render a flag with a bor
   <div
     class="flag l border border-radius IT"
     ng-reflect-ng-class="flag,l,border,border-radius,,I"
+    ng-reflect-ng-style="[object Object]"
+    style="border-radius: 10px;"
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
@@ -97,7 +102,8 @@ exports[`FlagComponent Tests the different props Should render a flag with no bo
 >
   <div
     class="flag l border IT"
-    ng-reflect-ng-class="flag,l,border,,,IT,"
+    ng-reflect-ng-class="flag,l,border,,,IT,,"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
@@ -117,8 +123,9 @@ exports[`FlagComponent Tests the different props Should render a large US flag w
   size={[Function String]}
 >
   <div
-    class="flag l border border-radius US"
+    class="flag l border border-radius US custom-flag-class"
     ng-reflect-ng-class="flag,l,border,border-radius,,U"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/US.svg?sanitize=true"
@@ -140,6 +147,7 @@ exports[`FlagComponent Tests the different props Should render a large US flag w
   <div
     class="flag l border border-radius dropshadow US"
     ng-reflect-ng-class="flag,l,border,border-radius,dr"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/US.svg?sanitize=true"
@@ -161,6 +169,7 @@ exports[`FlagComponent Tests the different props Tests the border prop Should re
   <div
     class="flag l border border-radius IT"
     ng-reflect-ng-class="flag,l,border,border-radius,,I"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
@@ -181,7 +190,8 @@ exports[`FlagComponent Tests the different props Tests the border prop Should re
 >
   <div
     class="flag l border-radius IT"
-    ng-reflect-ng-class="flag,l,,border-radius,,IT,"
+    ng-reflect-ng-class="flag,l,,border-radius,,IT,,"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/IT.svg?sanitize=true"
@@ -203,6 +213,7 @@ exports[`FlagComponent Tests the different props Tests the different gradients S
   <div
     class="flag l border border-radius BE real-circular"
     ng-reflect-ng-class="flag,l,border,border-radius,,B"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/BE.svg?sanitize=true"
@@ -224,6 +235,7 @@ exports[`FlagComponent Tests the different props Tests the different gradients S
   <div
     class="flag l border border-radius BE real-linear"
     ng-reflect-ng-class="flag,l,border,border-radius,,B"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/BE.svg?sanitize=true"
@@ -245,6 +257,7 @@ exports[`FlagComponent Tests the different props Tests the different gradients S
   <div
     class="flag l border border-radius BE top-down"
     ng-reflect-ng-class="flag,l,border,border-radius,,B"
+    ng-reflect-ng-style=""
   >
     <img
       src="https://raw.githubusercontent.com/Yummygum/flag-pack-core/master/svg/l/BE.svg?sanitize=true"
