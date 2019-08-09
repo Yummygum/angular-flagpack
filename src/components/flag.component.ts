@@ -12,7 +12,7 @@ const { isoToCountryCode } =  require('flag-pack-core');
 export class FlagComponent {
   @Input() code: String;
   @Input() size: 'l';
-  @Input() dropshadow: Boolean;
+  @Input() hasDropshadow: Boolean;
   @Input() hasBorder: Boolean;
   @Input() gradient: '';
   @Input() hasBorderRadius: Boolean;
