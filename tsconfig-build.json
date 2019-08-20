@@ -38,7 +38,7 @@
     "skipTemplateCodegen": true,
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
-    "flatModuleOutFile": "angular-flag-pack.js",
-    "flatModuleId": "angular-flag-pack"
+    "flatModuleOutFile": "angular-flagpack.js",
+    "flatModuleId": "angular-flagpack"
   }
 }
