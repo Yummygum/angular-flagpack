@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 // This fixes the build that breaks.
 declare var require: any
-const { isoToCountryCode } =  require('flag-pack-core');
+const { isoToCountryCode } =  require('flagpack-core');
 
 @Component({
   selector: 'flag',

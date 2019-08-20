@@ -5,12 +5,12 @@
 ## Installation
 
 ```bash
-npm install angular-flag-pack -S
+npm install angular-flagpack -S
 ```
 
 ## Declare module
 ```js
-import { FlagComponent } from 'angular-flag-pack'
+import { FlagComponent } from 'angular-flagpack'
 
 @NgModule({
   ...

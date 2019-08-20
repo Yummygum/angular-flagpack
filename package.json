@@ -1,15 +1,15 @@
 {
-  "name": "angular-flag-pack",
-  "version": "0.1.10",
+  "name": "angular-flagpack",
+  "version": "0.1.11",
   "description": "A flag pack to use in Angular",
-  "main": "./bundles/angular-flag-pack.umd.js",
-  "module": "./fesm5/angular-flag-pack.js",
-  "es2015": "./fesm2015/angular-flag-pack.js",
-  "esm5": "./esm5/angular-flag-pack.js",
-  "esm2015": "./esm2015/angular-flag-pack.js",
-  "fesm5": "./fesm5/angular-flag-pack.js",
-  "fesm2015": "./fesm2015/angular-flag-pack.js",
-  "typings": "./angular-flag-pack.d.ts",
+  "main": "./bundles/angular-flagpack.umd.js",
+  "module": "./fesm5/angular-flagpack.js",
+  "es2015": "./fesm2015/angular-flagpack.js",
+  "esm5": "./esm5/angular-flagpack.js",
+  "esm2015": "./esm2015/angular-flagpack.js",
+  "fesm5": "./fesm5/angular-flagpack.js",
+  "fesm2015": "./fesm2015/angular-flagpack.js",
+  "typings": "./angular-flagpack.d.ts",
   "scripts": {
     "test": "echo 'tests here'",
     "build": "node build.js"
@@ -31,7 +31,7 @@
     "countries"
   ],
   "dependencies": {
-    "flag-pack-core": "file:../flag-pack-core",
+    "flagpack-core": "0.0.33",
     "tslib": "^1.9.0"
   },
   "peerDependencies": {
