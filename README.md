@@ -30,7 +30,7 @@ Use in your template:
   code="nl"
   size="m"
   gradient="top-down"
-  [dropshadow]="true"
+  [hasDropshadow]="true"
   [hasBorder]="true"
   [hasBorderRadius]="true">
 </flag>
@@ -43,7 +43,7 @@ Use in your template:
 | country code |  String | true | none | see all codes |
 | size |  String | false | l | 's', 'm' or 'l' |
 | className |  String | false | - | - |
-| dropshadow |  boolean | false | false | - |
+| hasDropshadow |  boolean | false | false | - |
 | hasBorder |  boolean | false | true | - |
 | hasBorderRadius | boolean | false | true | - |
 | customBorderRadius |  String | false | - | - |
