@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 // This fixes the build that breaks.
 declare var require: any
-const { isoToCountryCode } =  require('flagpack-core');
+const { isoToCountryCode, imageUrl } =  require('flagpack-core');
 
 @Component({
   selector: 'flag',
@@ -23,5 +23,7 @@ export class FlagComponent {
     return isoToCountryCode(this.code.toUpperCase());
   }
 
-  constructor() {}
+  get src(): String {
+    return imageUrl(this.assetCode, this.size.toLowerCase());
+  }
 }
