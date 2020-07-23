@@ -1,6 +1,6 @@
 {
   "name": "angular-flagpack",
-  "version": "0.1.14",
+  "version": "0.2.0",
   "peerDependencies": {
     "@angular/common": "^10.0.5",
     "@angular/core": "^10.0.5"
