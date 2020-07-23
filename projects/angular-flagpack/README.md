@@ -27,7 +27,7 @@ Use in your template:
   code="nl"
   size="m"
   gradient="top-down"
-  [hasDropshadow]="true"
+  [hasDropShadow]="true"
   [hasBorder]="true"
   [hasBorderRadius]="true">
 </lib-angular-flagpack>
@@ -45,7 +45,7 @@ Or use with defaults
 | country code |  String | true | none | see all codes |
 | size |  String | false | l | 's', 'm' or 'l' |
 | className |  String | false | - | - |
-| hasDropshadow |  boolean | false | false | - |
+| hasDropShadow |  boolean | false | false | - |
 | hasBorder |  boolean | false | true | - |
 | hasBorderRadius | boolean | false | true | - |
 | gradient |  String | false | '' | 'top-down', 'real-linear' or 'real-circular' |

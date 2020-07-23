@@ -11,9 +11,9 @@ import { isoToCountryCode, imageUrl } from 'flagpack-core';
 export class AngularFlagpackComponent {
   @Input() code = '528';
   @Input() size = 'm';
-  @Input() hasDropshadow = false;
+  @Input() hasDropShadow = false;
   @Input() hasBorder = true;
-  @Input() hasBorderRadius = true ;
+  @Input() hasBorderRadius = true;
   @Input() gradient: string;
   @Input() className: string;
 
