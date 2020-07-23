@@ -10,15 +10,12 @@ npm install angular-flagpack -S
 
 ## Declare module
 ```js
-import { FlagComponent } from 'angular-flagpack'
+import { AngularFlagpackModule } from 'angular-flagpack';
 
 @NgModule({
   ...
-  declarations: [
-    FlagComponent
-  ],
   imports: [
-    BrowserModule, // is required
+    AngularFlagpackModule // add it here.
   ],
   ...
 })
@@ -36,6 +33,11 @@ Use in your template:
 </lib-angular-flagpack>
 ```
 
+Or use with defaults
+```html
+<lib-angular-flagpack code="528"></lib-angular-flagpack>
+```
+
 ## Available component options
 
 | key   | value   | required | default | format |
@@ -46,6 +48,5 @@ Use in your template:
 | hasDropshadow |  boolean | false | false | - |
 | hasBorder |  boolean | false | true | - |
 | hasBorderRadius | boolean | false | true | - |
-| customBorderRadius |  String | false | - | - |
 | gradient |  String | false | '' | 'top-down', 'real-linear' or 'real-circular' |
 
