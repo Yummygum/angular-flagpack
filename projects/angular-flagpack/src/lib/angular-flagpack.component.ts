@@ -23,7 +23,8 @@ export class AngularFlagpackComponent {
   }
 
   get src(): string {
-    return imageUrl(this.assetCode, this.size.toLowerCase());
+    const x = imageUrl(this.assetCode, this.size.toLowerCase());
+    return x.default;
   }
 
 }
