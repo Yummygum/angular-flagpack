@@ -9,13 +9,12 @@ import { isoToCountryCode, imageUrl } from 'flagpack-core';
   styleUrls: ['./angular-flagpack.style.scss']
 })
 export class AngularFlagpackComponent {
-  @Input() code: string;
-  @Input() size: 'l';
-  @Input() hasDropshadow: boolean;
-  @Input() hasBorder: boolean;
-  @Input() gradient: '';
-  @Input() hasBorderRadius: boolean;
-  @Input() customBorderRadius: any;
+  @Input() code = '528';
+  @Input() size = 'm';
+  @Input() hasDropshadow = false;
+  @Input() hasBorder = true;
+  @Input() hasBorderRadius = true ;
+  @Input() gradient: string;
   @Input() className: string;
 
   get assetCode(): string {

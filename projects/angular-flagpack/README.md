@@ -26,7 +26,7 @@ import { FlagComponent } from 'angular-flagpack'
 
 Use in your template:
 ```html
- <lib-angular-flagpack
+<lib-angular-flagpack
   code="nl"
   size="m"
   gradient="top-down"
