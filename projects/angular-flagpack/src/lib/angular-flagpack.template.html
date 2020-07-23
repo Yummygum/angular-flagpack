@@ -1,0 +1,13 @@
+<div
+  [ngClass]="[
+    'flag',
+    size,
+    hasBorder ? 'border' : '',
+    hasBorderRadius ? 'border-radius' : '',
+    hasDropshadow ? 'dropshadow' : '',
+    code,
+    gradient
+  ]"
+>
+  <img [src]="src">
+</div>

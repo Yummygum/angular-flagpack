@@ -1,0 +1,31 @@
+{
+  "name": "angular-flagpack",
+  "version": "0.1.14",
+  "peerDependencies": {
+    "@angular/common": "^10.0.5",
+    "@angular/core": "^10.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0",
+    "flagpack-core": "0.0.43"
+  },
+  "homepage": "https://flagpack.xyz",
+  "author": "Yummygum <info@yummygum.com> (https://yummygum.com)",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "languages",
+    "flag",
+    "iso",
+    "flag set",
+    "countries"
+  ],
+  "authors": [
+    {
+      "name": "Noud Adrichem",
+      "social": "@noudadrichem",
+      "url": "https://noudadrichem.com"
+    }
+  ]
+}

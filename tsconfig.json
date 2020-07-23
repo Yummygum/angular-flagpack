@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/angular-flagpack/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/angular-flagpack/tsconfig.spec.json"
+    }
+]
 }
