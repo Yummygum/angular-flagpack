@@ -3,8 +3,5 @@
   "dest": "../../dist/angular-flagpack",
   "lib": {
     "entryFile": "src/public-api.ts"
-  },
-  "whitelistedNonPeerDependencies": [
-    "flagpack-core"
-  ]
+  }
 }

@@ -2,9 +2,13 @@
 {
   "extends": "./tsconfig.lib.json",
   "compilerOptions": {
-    "declarationMap": false
+    "outDir": "./out-tsc/spec",
+    "types": [
+      "jasmine"
+    ]
   },
-  "angularCompilerOptions": {
-    "compilationMode": "partial"
-  }
+  "include": [
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
 }

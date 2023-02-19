@@ -1,13 +1,13 @@
 {
   "name": "angular-flagpack",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "peerDependencies": {
-    "@angular/common": "^10.0.5",
-    "@angular/core": "^10.0.5"
+    "@angular/common": "^15.1.5",
+    "@angular/core": "^15.1.5",
+    "flagpack-core": "2.0.0"
   },
   "dependencies": {
-    "tslib": "^2.0.0",
-    "flagpack-core": "0.0.43"
+    "tslib": "^2.0.0"
   },
   "homepage": "https://flagpack.xyz",
   "author": "Yummygum <info@yummygum.com> (https://yummygum.com)",

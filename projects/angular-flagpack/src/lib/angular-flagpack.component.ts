@@ -1,7 +1,6 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { isoToCountryCode, imageUrl } from 'flagpack-core';
-// declare var require: any
-// const { isoToCountryCode, imageUrl } =  require('flagpack-core');
+import { Component, Input } from '@angular/core';
+import { isoToCountryCode } from 'flagpack-core';
+import { imageUrl } from 'flagpack-core/types';
 
 @Component({
   selector: 'lib-angular-flagpack',
@@ -22,8 +21,7 @@ export class AngularFlagpackComponent {
   }
 
   get src(): string {
-    const x = imageUrl(this.assetCode, this.size.toLowerCase());
-    return x.default;
+    return imageUrl(this.assetCode, this.size);
   }
 
 }
